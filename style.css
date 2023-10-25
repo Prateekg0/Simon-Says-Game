@@ -1,0 +1,126 @@
+body{
+    text-align: center;
+   background-color: rgb(17, 17, 17);
+    
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 20%;
+    border: transparent;
+    margin: 2rem;
+    background-color: transparent;
+}
+.red{
+    background-color: #FF4236;
+    box-shadow: 0 0 20px #FF4236,
+}
+.red:hover{
+    box-shadow: 0 0 5px #FF4236,
+    0 0 25px #FF4236, 0 0 50px #FF4236,
+    0 0 100px #FF4236, 0 0 200px #FF4236 ;
+}
+.green{
+    background-color: #2ECC41;
+}
+.green:hover{
+    box-shadow: 0 0 5px #2ECC41,
+    0 0 25px #2ECC41, 0 0 50px #2ECC41,
+    0 0 100px #2ECC41, 0 0 200px #2ECC41 ;
+}
+.blue{
+    background-color: #8AAAE5;
+}
+.blue:hover{
+    box-shadow: 0 0 5px #8AAAE5,
+    0 0 25px #8AAAE5, 0 0 50px #8AAAE5,
+    0 0 100px #8AAAE5, 0 0 200px #8AAAE5 ;
+}
+.yellow{
+    background-color: #FEDC00;
+}
+.yellow:hover{
+    box-shadow: 0 0 5px #FEDC00,
+    0 0 25px #FEDC00, 0 0 50px #FEDC00,
+    0 0 100px #FEDC00, 0 0 200px #FEDC00 ;
+}
+button{
+    background-color: #0074D9;
+    height: 3.125rem;
+    width: 6.2rem;
+    border-radius: 20%;
+    border: none;
+    box-shadow: 4px 4px 5px #0074D9;
+    color: white;
+}
+button:hover{
+    box-shadow: 8px 8px 10px #0074D9;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: white;
+}
+@media (max-width:400px){
+    .btn{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 20%;
+        border: transparent;
+        margin: 0.5rem;
+        margin-top: 3rem;
+
+    }
+    .yellow:hover{
+        box-shadow: 0 0 5px #FEDC00,
+        0 0 25px #FEDC00, 0 0 50px #FEDC00,
+        0 0 100px #FEDC00, 0 0 200px #FEDC00 ;
+    }
+    .blue:hover{
+        box-shadow: 0 0 5px #8AAAE5,
+        0 0 25px #8AAAE5, 0 0 50px #8AAAE5,
+        0 0 100px #8AAAE5, 0 0 200px #8AAAE5 ;
+    }
+    .green:hover{
+        box-shadow: 0 0 5px #2ECC41,
+        0 0 25px #2ECC41, 0 0 50px #2ECC41,
+        0 0 100px #2ECC41, 0 0 200px #2ECC41 ;
+    }
+    .red:hover{
+        box-shadow: 0 0 5px #FF4236,
+        0 0 25px #FF4236, 0 0 50px #FF4236,
+        0 0 100px #FF4236, 0 0 200px #FF4236 ;
+    }
+    button:hover{
+        box-shadow: 8px 8px 10px #0074D9;
+    }
+    button{
+        margin-top: 2rem;
+    }
+    .how-to-play{
+        margin-top: 3rem;
+    }
+    /* .btn-container{
+        height: 80vh;
+        width: 90vh;
+    } */
+
+}
+h1,h2{
+    color: white;
+    text-shadow: 2px 2px 2px white;
+}
+/* img{
+margin-top: -200px;
+} */
+.how-to-play{
+    display: flex;
+}
+/* .h2{
+    margin-top: 100px;
+} */ 
